@@ -1,5 +1,7 @@
 class School
 
+  attr_reader : grade
+
   def initialize(name)
     @name = name
     @roster = {}
@@ -17,4 +19,6 @@ class School
     end
     @roster[grade] << name
   end
+
+    
 end
