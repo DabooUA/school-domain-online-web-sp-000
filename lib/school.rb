@@ -1,6 +1,6 @@
 class School
 
-  attr_reader : grade(number)
+  attr_reader : grade[number]
 
   def initialize(name)
     @name = name
